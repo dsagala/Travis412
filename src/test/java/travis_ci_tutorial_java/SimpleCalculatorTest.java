@@ -23,4 +23,10 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator(); //fixed
 		assertEquals(calc.divide(6, 3), 2);
 	}
+	
+	@Test
+	public void testMultiply() {
+		SimpleCalculator calc = new SimpleCalculator(); //fixed
+		assertEquals(calc.multiply(6, 3), 2);
+	}
 }
