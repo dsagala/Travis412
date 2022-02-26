@@ -8,7 +8,7 @@ import org.junit.*;
 public class SimpleCalculatorTest {
 	@Test
 	public void testAdd() {
-		SimpleCalculator calc = new SimpleCalculator();
+		SimpleCalculator calc = new SimpleCalculator(); //fixed
 		assertEquals(calc.add(1, 1), 2);
 	}
 }
